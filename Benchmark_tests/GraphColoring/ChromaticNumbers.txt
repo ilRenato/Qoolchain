@@ -1,0 +1,9 @@
+1-FullIns_3.txt 4
+1-FullIns_4.txt 5
+2-FullIns_3.txt 5
+3-FullIns_3.txt 6
+4-FullIns_3.txt 7
+5-FullIns_3.txt 8
+myciel3.txt 4
+myciel4.txt 5
+myciel5.txt 6

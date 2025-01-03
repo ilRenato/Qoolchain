@@ -1,0 +1,102 @@
+.
+├── Benchmark_tests
+│   ├── bounds_utils.py
+│   ├── CompareResult.py
+│   ├── create_Q_matrix.py
+│   ├── Dwave_Toolchain
+│   │   ├── dwave
+│   │   │   ├── preprocessing
+│   │   │   │   ├── composites
+│   │   │   │   │   ├── fix_variables.py
+│   │   │   │   │   └── …
+│   │   │   │   └── …
+│   │   │   └── …
+│   │   └── ...
+│   ├── GraphColoring
+│   │   ├── Benchmarks
+│   │   │   ├── 1-FullIns_3.txt
+│   │   │   ├── 1-FullIns_4.txt
+│   │   │   ├── 1-FullIns_5.txt
+│   │   │   ├── 2-FullIns_3.txt
+│   │   │   ├── 2-FullIns_4.txt
+│   │   │   ├── 2-FullIns_5.txt
+│   │   │   ├── 3-FullIns_3.txt
+│   │   │   ├── 3-FullIns_4.txt
+│   │   │   ├── 4-FullIns_3.txt
+│   │   │   ├── 4-FullIns_4.txt
+│   │   │   ├── 5-FullIns_3.txt
+│   │   │   ├── 5-FullIns_4.txt
+│   │   │   ├── myciel3.txt
+│   │   │   ├── myciel4.txt
+│   │   │   └── myciel5.txt
+│   │   ├── CheckMinimum.py
+│   │   ├── ChromaticNumbers.txt
+│   │   ├── data
+│   │   │   ├── 1-FullIns_3_n.txt
+│   │   │   ├── 1-FullIns_4_n.txt
+│   │   │   ├── 2-FullIns_3_n.txt
+│   │   │   ├── 3-FullIns_3_n.txt
+│   │   │   ├── 4-FullIns_3_n.txt
+│   │   │   ├── 5-FullIns_3_n.txt
+│   │   │   ├── 5-FullIns_4_n.txt
+│   │   │   ├── myciel3_n.txt
+│   │   │   ├── myciel4_n.txt
+│   │   │   └── myciel5_n.txt
+│   │   ├── DIMACS_converter.py
+│   │   ├── DwavePreprocessing.py
+│   │   ├── GraphColoringTestGeneration.py
+│   │   ├── plot_from_json.py
+│   │   └── PlotResults.py
+│   ├── MaxClique
+│   │   ├── CheckMinimum.py
+│   │   ├── DwavePreprocessing.py
+│   │   ├── MaxCliqueTestGeneration.py
+│   │   ├── plot_from_json.py
+│   │   └── PlotResults.py
+│   ├── MaxCut
+│   │   ├── CheckMinimum.py
+│   │   ├── DwavePreprocessing.py
+│   │   ├── Gset
+│   │   │   ├── GSets_u800
+│   │   │   │   └── ...
+│   │   │   ├── BestKnownValue.txt
+│   │   │   ├── CheckMinimum.py
+│   │   │   ├── Converter.py
+│   │   │   ├── DwavePreprocessing.py
+│   │   │   ├── GsetToolchain.py
+│   │   │   ├── plot_from_json.py
+│   │   │   └── PlotResults.py
+│   │   ├── MaxCutTestGeneration.py
+│   │   ├── plot_from_json.py
+│   │   └── PlotResults.py
+│   ├── MinimumVertexCover
+│   │   ├── CheckMinimum.py
+│   │   ├── DwavePreprocessing.py
+│   │   ├── MVCTestGeneration.py
+│   │   ├── plot_from_json.py
+│   │   └── PlotResults.py
+│   ├── NumberPartitioning
+│   │   ├── CheckMinimum.py
+│   │   ├── DwavePreprocessing.py
+│   │   ├── NumberPartitioningTestGeneration.py
+│   │   ├── plot_from_json.py
+│   │   └── PlotResults.py
+│   └── ToolchainTestScripts.py
+├── LICENSE
+├── README.md
+├── requirements.txt
+├── structure.txt
+└── Toolchain_implementation
+    ├── FlowFunctions.cpp
+    ├── FlowFunctions.h
+    ├── GraphFunctions.cpp
+    ├── GraphFunctions.h
+    ├── ImplicationNetwork.cpp
+    ├── ImplicationNetwork.h
+    ├── PreprocessingToolchain.cpp
+    ├── PreprocessingToolchain.pyx
+    ├── PreQubo.cpp
+    ├── PreQubo.h
+    ├── ResidualNetwork.cpp
+    ├── ResidualNetwork.h
+    └── setup.py
