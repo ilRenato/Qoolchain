@@ -100,6 +100,9 @@ Original repository:
 - URL: https://github.com/dwavesystems/dwave-preprocessing
 - License: Apache-2.0
 
+The tests conducted on the graph coloring problem (in the `Benchmark_tests/GraphColoring` folder) use the FullIns and Myciel benchmarks from [https://mat.tepper.cmu.edu/COLOR02/](https://mat.tepper.cmu.edu/COLOR02/).
+The Max-cut Gset tests (in the `Benchmark_tests/MaxCut/Gset` folder) use benchmarks from [https://web.stanford.edu/∼yyye/yyye/Gset/](https://web.stanford.edu/∼yyye/yyye/Gset/).
+
 ---
 
 ## Dependencies
