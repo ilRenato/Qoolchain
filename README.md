@@ -8,7 +8,7 @@ The contents of this repository, along with the Qoolchain objectives and results
 **Qoolchain: A QUBO Preprocessing Toolchain for Enhancing Quantum Optimization**  
 Authors: Giacomo Orlandi, Deborah Volpe, Mariagrazia Graziano, Giovanna Turvani 
 Published in: *Advanced Quantum Technologies, 2024*  
-DOI: [DOI Link](https://doi.org/10.1002/qute.202400384) 
+DOI: [https://doi.org/10.1002/qute.202400384](https://doi.org/10.1002/qute.202400384) 
 
 ---
 
@@ -83,7 +83,7 @@ A more detailed directory structure is reported in `structure.txt`.
 
 ## Attribution
 
-This repository includes code adapted from the [Original Repository Name](https://github.com/dwavesystems/dwave-preprocessing) under the Apache-2.0 license.
+This repository includes code adapted from the [D-Wave preprocessing toolchain](https://github.com/dwavesystems/dwave-preprocessing) under the Apache-2.0 license.
 
 The files and folders in the `Benchmark_tests/Dwave_Toolchain` directory are based on work from the Original Repository. Changes have been made to the code to make comparisons with this project.
 The only modification required was in the file `Benchmark_tests/Dwave_Toolchain/dwave/preprocessing/composites/fix_variables.py`, to extract the fixed variables (or persistencies) for comparison between those found by Qoolchain and by the Dwave toolchain.
@@ -145,7 +145,7 @@ The version of the D-Wave toolchain included in this repository is configured to
 However, if you wish to run the latest version of the toolchain, only a single line of code needs to be modified. You can make this change directly in the file mentioned in the [Attribution](#attribution) section.
 
 Therefore, to run the latest version of the toolchain also in a Linux machine:
-- clone the D-wave repository (ADD LINK),
+- clone the D-wave repository ([https://github.com/dwavesystems/dwave-preprocessing](https://github.com/dwavesystems/dwave-preprocessing)),
 - update the fix_variables.py file by applying the modification described above.
 - build the toolchain by launching the setup.py as above.
 
