@@ -3,7 +3,7 @@
 Qoolchain is a QUBO preprocessing toolchain designed to reduce problem size and improve the performance of optimization solvers. It is compatible with any QUBO-compliant solver and, in particular, it is optimized for the **Grover Adaptive Search** (**GAS**) hybrid quantum-classical algorithm.
 The toolchain is implemented in C++ and compiled into a Python extension module using **Cython**. The repository also contains a collection of tests and benchmarks to validate and compare its performance with state-of-the-art implementations.
 
-The contents of this repository, along with the Qoolchain objectives and results are provided in the following paper. Please cite this paper if you use this repository and find it helpful.
+The contents of this repository, along with the Qoolchain objectives and results are described in the following paper. Please cite this paper if you use this repository and find it helpful.
 
 **Qoolchain: A QUBO Preprocessing Toolchain for Enhancing Quantum Optimization**  
 Authors: Giacomo Orlandi, Deborah Volpe, Mariagrazia Graziano, Giovanna Turvani 
@@ -144,7 +144,8 @@ The following package versions were used to ensure reproducibility of the result
 - dimod	0.12.14
 - numpy	1.26.4
 - setuptools 60.2.0
-The version of the D-Wave toolchain included in this repository is configured to work with these package versions for reproducibility.
+
+The version of the D-Wave toolchain included in this repository is configured to work with these package versions to reproduce the same results of the published paper.
 However, if you wish to run the latest version of the toolchain, only a single line of code needs to be modified. You can make this change directly in the file mentioned in the [Attribution](#attribution) section.
 
 Therefore, to run the latest version of the toolchain also in a Linux machine:
