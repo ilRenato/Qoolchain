@@ -37,7 +37,7 @@ The goal of this project is to combine the speed of C++ with the usability of Py
 ## Directory Structure
 
 The repository is organized as follows:
-
+```
 .
 ├── Benchmark_tests
 │   ├── bounds_utils.py
@@ -76,6 +76,7 @@ The repository is organized as follows:
     ├── ResidualNetwork.cpp
     ├── ResidualNetwork.h
 	└── setup.py
+```
 	
 A more detailed directory structure is reported in `structure.txt`.
 	
