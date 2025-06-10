@@ -71,7 +71,7 @@ The repository is organized as follows:
     ├── ImplicationNetwork.h
     ├── PreprocessingToolchain.cpp
     ├── PreprocessingToolchain.pyx
-	├── PreQubo.cpp
+    ├── PreQubo.cpp
     ├── PreQubo.h
     ├── ResidualNetwork.cpp
     ├── ResidualNetwork.h
