@@ -75,7 +75,7 @@ The repository is organized as follows:
     ├── PreQubo.h
     ├── ResidualNetwork.cpp
     ├── ResidualNetwork.h
-	└── setup.py
+    └── setup.py
 ```
 	
 A more detailed directory structure is reported in `structure.txt`.
